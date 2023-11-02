@@ -7,8 +7,6 @@
   },
   "mounts": ["type=bind,source=${localEnv:HOME}/.ssh,target=${localEnv:HOME}/.ssh,readonly"],
   "features": {
-    "ghcr.io/devcontainers/features/common-utils:2": {},
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
     "ghcr.io/devcontainers/features/node:1": {}
   },
   "onCreateCommand": {
